@@ -54,5 +54,33 @@
     docker push username/repository:tag
     
     docker run -p 4000:80 username/repository:tag
- 
-    
+  
+## Ops with Services
+
+  1.Create .yml file
+  
+  2.Run your new load-balanced app
+      
+      docker swarm init
+      
+      docker stack deploy -c __.yml __app_name__
+      
+      docker service ls
+      
+      docker stack services __app_name__
+      
+      docker service ps __task_name__
+      
+      docker container ls -q
+      
+      docker stack ps
+   
+   3.Scale the app, change the .yml file
+   
+      docker stack deploy -c __.yml __app_name__
+      
+   4.Take down the app and the swarm
+   
+      docker stack rm __app_name__
+      
+      docker swarm leave --force
