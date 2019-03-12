@@ -4,16 +4,16 @@
 
 1.Docker Documentation
 
-https://docs.docker.com/
+  https://docs.docker.com/
 
 2.Get Docker CE for Ubuntu
 
-https://docs.docker.com/install/linux/docker-ce/ubuntu/
+  https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
 3.Post-installation steps for Linux
 
-https://docs.docker.com/install/linux/linux-postinstall/ 
+  https://docs.docker.com/install/linux/linux-postinstall/ 
 
 4.User Guide 
 
-https://docs.docker.com/get-started/
+  https://docs.docker.com/get-started/
