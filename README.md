@@ -21,7 +21,7 @@
 
 ## Ops with Container
 
-1.Define a container with Dockerfile, requirements.txt & coding files
+1.Define a container with Dockerfile, requirements.txt & __coding files__
 
 2.Build the app
     
@@ -35,7 +35,7 @@
 
     docker run -p 4000:80 __tagname__
     
-    http://localhost:4000
+    curl http://localhost:4000
     
   run the app in the background
     
