@@ -54,6 +54,18 @@
     docker push username/repository:tag
     
     docker run -p 4000:80 username/repository:tag
+    
+  5.stop and remove containers
+    
+    docker container rm __CONTAINER ID__
+    
+    docker container rm -f __CONTAINER ID__
+    
+    docker stop $(docker ps -q)
+    
+    docker rm $(docker ps -aq)
+    
+    docker stop $(docker ps -q) & docker rm $(docker ps -aq)
   
 ## Ops with Services
 
